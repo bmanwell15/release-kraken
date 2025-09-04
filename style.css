@@ -1,0 +1,85 @@
+body {
+  background-color: #333;
+  padding: 0;
+  margin:0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: Quando;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-family: Pirata One;
+  letter-spacing: 5px;
+  font-size: 55px;
+  margin:0;
+}
+
+table {
+  width: 94%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  background-image: url(https://cdn.glitch.global/19be9753-4ee9-40a4-94e1-a6687f176f7c/kraken.png?v=1674327652713);
+  background-size: 100%;
+}
+
+td {
+  height: 75px;
+  width: 14%;
+  border: 1px solid black;
+}
+
+.container {
+  height: 100vh;
+  width: 120vh;
+  background-color: #eff;
+  position: fixed;
+  left: calc(50vw - 60vh);
+}
+
+.tableNumber {
+  width: 3%;
+  text-align: right;
+  border-width: 0;
+  background-color: white;
+  font-weight: bold;
+}
+
+.tableLetter {
+  text-align: center;
+  border-width: 0;
+  background-color: white;
+  font-weight: bold;
+  height: 40px;
+}
+
+.tile {
+  width: 90%;
+  height: 60%;
+  margin: 5%;
+  padding-top: 18%;
+  background-color: tan;
+  border: 1px solid black;
+  display: none;
+  text-align: center;
+  font-weight: 500;
+  opacity: 0;
+  cursor: default;
+  background-image: url(https://cdn.glitch.global/19be9753-4ee9-40a4-94e1-a6687f176f7c/background.jpg?v=1674331585502);
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+
+.undoBtn {
+  border: 3px solid black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 6px;
+  width: 120px;
+  cursor: pointer;
+  position: absolute;
+  left: 7px;
+  bottom: 0.5vh;
+}
+.undoBtn:hover {background-color: #ccc}
